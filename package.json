@@ -21,7 +21,6 @@
   ],
   "author": "chris <wfsr@foxmail.com>",
   "license": "MIT",
-  "preferGlobal": true,
   "engines": {
     "node": ">=4"
   },
@@ -39,8 +38,9 @@
     "unquoted-property-validator": "^1.0.0"
   },
   "devDependencies": {
-    "fecs": "latest",
     "coveralls": "^2.11.8",
+    "esformatter": "^0.9.6",
+    "fecs": "latest",
     "istanbul": "^0.4.2",
     "jasmine-node": "^2.0.0",
     "mock-fs": "3.1.0",
