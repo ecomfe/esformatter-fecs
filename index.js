@@ -2,6 +2,7 @@
  * @file api
  * @author chris<wfsr@foxmail.com>
  */
+'use strict';
 
 
 const util = require('./lib/util');
