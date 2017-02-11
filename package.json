@@ -4,7 +4,7 @@
   "description": "esformatter plugin for fecs",
   "main": "index.js",
   "scripts": {
-    "lint": "fecs --type=js --rule",
+    "lint": "fecs lib --type=js --rule",
     "coverage": "istanbul cover ./node_modules/jasmine-node/bin/jasmine-node --captureExceptions test/",
     "test": "npm run lint && npm run coverage",
     "coveralls": "cat ./coverage/lcov.info | coveralls"
